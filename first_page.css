@@ -1,7 +1,8 @@
 .one{
     display:flex;
-    /* justify-content:space-between; */
+    
     padding:20px;
+
 }
 .one_inside{
     padding:20px;
@@ -10,6 +11,7 @@
     width:40%;
     margin:10px;
     color:aliceblue;
+    margin-left:10%;
 }
 .two_inside_one{
     padding:20px;
@@ -17,4 +19,33 @@
     background-color: rgb(197, 194, 192);
     margin:10px;
     color:aliceblue;
+    
+}
+.yummy{
+    border:10px aliceblue inset;
+    margin:10px;
+    text-align: center;
+}
+
+body{
+    background:url("orangeb.webp");
+    text-align: center;
+}
+
+.headingss{
+    background-color: #f0b248;
+    padding:1%;
+    margin:5%;
+    border:whitesmoke inset 5px;
+    color:white;
+    text-align: center;
+    font-size: 20px;
+
+}
+.recipe{
+    background-color: #a87f32;
+    padding:3%;
+    margin:5%;
+    border:whitesmoke inset 5px;
+    color:white;
 }
